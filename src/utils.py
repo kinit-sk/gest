@@ -36,3 +36,5 @@ def set_size(w,h, ax=None):
 def visualize_corr(corr):
     plt.colorbar(plt.imshow(corr, vmin=0, vmax=1))
     plt.show()
+
+all_languages = ['be', 'ru', 'uk', 'hr', 'sl', 'sr', 'cs', 'pl', 'sk']
