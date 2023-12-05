@@ -10,6 +10,8 @@ class AmazonTranslate(Translator):
     aws_secret_key = open(os.path.join('config', 'aws_secret_key')).read()
     region = 'us-west-2'
     dir_path = os.path.join('cache', 'translations', 'amazon_translate')
+
+    supported_languages = ['cs', 'hr', 'pl', 'ru', 'sk', 'sl', 'sr', 'uk',]
     
     
     def __init__(self, target_language, enable_api=False):

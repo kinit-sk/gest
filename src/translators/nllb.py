@@ -26,6 +26,8 @@ class NLLB(Translator):
         'sr': 'srp_Cyrl',
         'uk': 'ukr_Cyrl',
     }
+
+    supported_languages = ['be', 'cs', 'hr', 'pl', 'ru', 'sk', 'sl', 'sr', 'uk',]
      
     def __init__(self, target_language, variant='3.3B', device='cpu', enable_inference=False): 
         super().__init__(target_language)

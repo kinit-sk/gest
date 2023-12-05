@@ -37,6 +37,9 @@ class GoogleTranslate(Translator):
     
     auth_key_path = os.path.join('config', 'useg-395913-05f904c17367.json')
     dir_path = os.path.join('cache', 'translations', 'google_translate')
+
+    supported_languages = ['be', 'cs', 'hr', 'pl', 'ru', 'sk', 'sl', 'sr', 'uk',]
+    
     
     def __init__(self, target_language, enable_api=False):
         super().__init__(target_language)

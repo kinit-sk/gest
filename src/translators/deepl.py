@@ -28,6 +28,9 @@ class DeepL(Translator):
     auth_key = open(os.path.join('config', 'deepl.auth')).read()
     dir_path = os.path.join('cache', 'translations', 'deepl')
 
+    supported_languages = ['cs', 'pl', 'ru', 'sk', 'sl', 'uk',]
+
+
     def __init__(self, target_language, enable_api=False, server_url=None):
         super().__init__(target_language)
         self.enable_api = enable_api
