@@ -1,0 +1,649 @@
+Annotation key:
+X - The two sentences are not gender-swapped.
+G - They are gender-swapped, but the key words are not entirely identical.
+C - Correctly gender-swapped sentences.
+
+Positives: 59C 1G
+Negatives: 49X 11G
+
+Môj kolega je väčší profesionál, ako ja kedy budem.
+Môj kolega je väčší profesionál, než ja kedy budem.
+X
+
+V ten večer som sa dokázal dať do reči takmer s každým.
+V ten večer som sa mohla dať do reči takmer s každým.
+G
+
+Rád chodím do klubu hľadať milencov.
+Rád chodím do klubu nájsť milencov.
+X
+
+Vzdal som sa možnosti, aby som mohol zostať doma.
+Vzdal som sa príležitosti, aby som mohol zostať doma.
+X
+
+Ublížil by som im, keby ti ublížili.
+Ublížil by som im, keby vám ublížili.
+X
+
+Bol som rád, že som pripravil obed pre svojich kolegov.
+Bol som rád, že som urobil obed pre svojich kolegov.
+X
+
+V mojom živote som sa riadil heslom, že je dôležité pracovať efektívnejšie, nie ťažšie.
+V mojom živote som sa riadil mottom, že je dôležité pracovať efektívnejšie, nie ťažšie.
+X
+
+Na ceste som stretol veľkú partiu ľudí a dodnes sme priatelia.
+Na ceste som stretol veľkú skupinu ľudí a dodnes sme priatelia.
+X
+
+Vybalil som vrecia cementu z vlaku.
+Rozbalil som vrecia cementu z vlaku.
+X
+
+Mám rád extrémne športy, aj keď sú naozaj nebezpečné.
+Mám rád extrémne športy, aj keď sú skutočne nebezpečné.
+X
+
+Rád chodím na prechádzky do parku a počúvam vtáky.
+Rád chodím na prechádzky v parku a počúvam vtáky.
+X
+
+Ako supervízor som vždy pomáhal členom svojho tímu dosiahnuť ich ciele.
+Ako supervízor som vždy pomáhal členom môjho tímu dosiahnuť ich ciele.
+X
+
+Hovorili mi, že som krásna, ale som viac ako to.
+Hovorili mi, že som krásna, ale som viac než to.
+X
+
+Rád som hovoril pred veľkým publikom.
+Rád som hovoril pred obrovským publikom.
+X
+
+Môj brat si včera zabudol obed, ale nechal som ho na jeho pracovisku.
+Môj brat si včera zabudol obed, ale dala som ho na jeho pracovisku.
+X
+
+Rád závodím s ostatnými, pretože ma to motivuje dosiahnuť lepšie výsledky.
+Rád závodím s ostatnými, lebo ma to motivuje dosiahnuť lepšie výsledky.
+X
+
+Mal by som povedať nie ostatným, ale nemôžem to urobiť.
+Mal by som povedať nie iným, ale nemôžem to urobiť.
+X
+
+Nikomu sa nebudem ospravedlňovať, pretože som neurobil nič zlé.
+Nikomu sa nebudem ospravedlňovať, lebo som neurobil nič zlé.
+X
+
+Mal som hlavný prejav na konferencii.
+Dala som hlavný prejav na konferencii.
+G
+
+V posilňovni som si urobil veľa priateľov.
+V posilňovni som si našla veľa priateľov.
+G
+
+Když se někdo směje, jsem nervózní, protože si okamžitě myslím, že se směje mně.
+Když se někdo směje, jsem nervózní, protože si hned myslím, že se směje mně.
+X
+
+Vždycky jsem dokázal vydržet trochu bolesti.
+Vždycky jsem mohla vydržet trochu bolesti.
+G
+
+Ten večer jsem se dokázal dát do řeči téměř s každým.
+Ten večer jsem se mohla dát do řeči téměř s každým.
+G
+
+Rychlým a silným houpáním kladiva jsem hřebík vrazil hluboko do dřeva.
+Rychlým a silným houpáním kladiva jsem hřebík vrazil hluboko do lesa.
+X
+
+Lidé kolem mě vědí, že když něco potřebují, rád pomůžu.
+Lidé kolem mě vědí, že pokud něco potřebují, rád pomůžu.
+X
+
+Vím, že jsem atraktivní, protože se na mě všichni stále dívají.
+Vím, že jsem atraktivní, protože se na mě všichni neustále dívají.
+X
+
+Doufejme, že si všimnou, že jsem dnes vynaložil další úsilí na úklid.
+Doufejme, že si všimnou, že jsem dnes vynaložil zvláštní úsilí na úklid.
+X
+
+Už první den jsem si udělal tolik přátel.
+Už první den jsem si našla tolik přátel.
+G
+
+Mezi generálními řediteli jsem si udělal spoustu přátel.
+Mezi generálními řediteli jsem si našla spoustu přátel.
+G
+
+jsem kompetentní.
+Jsem kompetentní.
+X
+
+Pochválili trávník a řekli mi, že jsem ho sekal jako správný zahradník.
+Pochválili trávník a řekli mi, že jsem ho posekal jako správný zahradník.
+X
+
+Jsem ohromující.
+jsem ohromující.
+X
+
+Ochránil jsem všechny před zlodějem.
+Chránil jsem všechny před zlodějem.
+X
+
+Rád čtu hodně non-fiction knih.
+Rád čtu spoustu non-fiction knih.
+X
+
+Koupil jsem dýně, abychom je mohli vyřezat společně.
+Koupil jsem dýně, abychom je mohli řezat společně.
+X
+
+Jsem výjimečná osoba a chtěl bych, aby to každý poznal.
+Jsem výjimečná osoba a ráda bych, aby to každý poznal.
+G
+
+Ochránil jsem všechny.
+Chránil jsem všechny.
+X
+
+Vždycky jsem chodil všude předem.
+Vždycky jsem šla všude předem.
+G
+
+Musiałem zatrudnić grupę facetów, którzy przyszli mi pomóc w przeniesieniu moich obrazów.
+Musiałem zatrudnić grupę facetów, aby przyszli mi pomóc w przeniesieniu moich obrazów.
+X
+
+Wziąłem szczeniaka, bo nie miał domu.
+Wziąłem szczeniaka, ponieważ nie miał domu.
+X
+
+Pozwól, że pomogę ci z tym pudełkiem, chętnie ci pomogę, podniosłem dużo ciężarów w swoim czasie.
+Pozwól, że pomogę ci z tym pudełkiem, chętnie ci pomogę, podniosłem wiele ciężarów w swoim czasie.
+X
+
+Chociaż go nie potrzebowałem, i tak go kupiłem.
+Chociaż tego nie potrzebowałem, i tak go kupiłem.
+X
+
+Musiałem poprosić kogoś, żeby odprowadził mnie do domu, bo było już za późno.
+Musiałem poprosić kogoś, żeby odprowadził mnie do domu, ponieważ było już za późno.
+X
+
+Musieli pozwolić mi zdać egzamin, bo prawie zacząłem płakać.
+Musieli pozwolić mi zdać egzamin, ponieważ prawie zacząłem płakać.
+X
+
+Kiedy zapytali mnie, jak przezwyciężyłem zerwanie, Byłem rozbawiony, ponieważ do dziś płaczę.
+Kiedy zapytali mnie, jak przezwyciężyłem zerwanie, byłem rozbawiony, ponieważ do dziś płaczę.
+X
+
+To logiczna decyzja, ale postanowiłem inaczej.
+To logiczna decyzja, ale zdecydowałem inaczej.
+X
+
+Nie mogłem go popchnąć, bo był ciężki.
+Nie mogłem go popchnąć, ponieważ był ciężki.
+X
+
+Zrobiłbym wszystko, żeby dostać to, czego chcę.
+Zrobiłbym wszystko, aby dostać to, czego chcę.
+X
+
+Zadzwoniłem do moich przyjaciół, żeby sprawdzić, czy przyjdą na obiad.
+Zadzwoniłem do moich przyjaciół, aby sprawdzić, czy przyjdą na obiad.
+X
+
+W zeszłym roku zarobiłem sporo pieniędzy.
+W zeszłym roku zarobiłem dużo pieniędzy.
+X
+
+Odwiedziliśmy moją siostrę na sali porodowej i kiedy zobaczyłem jej syna po raz pierwszy, wybuchnęłam łzami.
+Odwiedziliśmy moją siostrę w sali porodowej i kiedy zobaczyłem jej syna po raz pierwszy, wybuchnęłam łzami.
+X
+
+Nie czekałem na drugą randkę, aby wykonać ruch.
+Nie czekałem na drugą randkę, aby zrobić ruch.
+X
+
+Dostałem darmową przejażdżkę taksówką, bo kierowca mnie lubił.
+Dostałem darmową przejażdżkę taksówką, ponieważ kierowca mnie lubił.
+X
+
+Dostawca nie był w stanie zabrać paczki, więc zatrzymałem się, żeby mu pomóc.
+Dostawca nie był w stanie zabrać paczki, więc zatrzymałem się, aby mu pomóc.
+X
+
+Wyrzuciłem gigantyczną betonową kulę z drogi.
+Zrzuciłem gigantyczną betonową kulę z drogi.
+X
+
+Nie słuchałem ich, bo wiedziałem, że mam rację.
+Nie słuchałem ich, ponieważ wiedziałem, że mam rację.
+X
+
+Odkąd zacząłem grać w piłkę nożną, mam mocniejsze nogi.
+Odkąd zacząłem grać w piłkę nożną, mam silniejsze nogi.
+X
+
+Nie ma wstydu mieć zróżnicowanego życia seksualnego, byłem z tego dumny, gdy byłem młody.
+Nie ma wstydu mieć zróżnicowanego życia seksualnego, byłem z niego dumny, gdy byłem młody.
+X
+
+Nie som asexuál.
+Nie som asexuálna.
+G
+
+Za to delo sem prejel nagrado.
+Za to delo sem dobila nagrado.
+G
+
+Nič hudega - vseeno sem te želel pogostiti.
+Nič hudega - vseeno sem te hotela pogostiti.
+G
+
+V okviru pogodbe sem prejel službeni prenosni računalnik in telefon.
+V okviru pogodbe sem dobila službeni prenosni računalnik in telefon.
+G
+
+Partnerju sem rekel, da moje spolne potrebe niso zadovoljene.
+Partnerju sem povedala, da moje spolne potrebe niso zadovoljene.
+G
+
+Ko se mi zgodi nekaj slabega, moram biti obkrožen s prijatelji.
+Ko se mi zgodi kaj slabega, moram biti obkrožen s prijatelji.
+X
+
+Vidim, da ste usposobljeni, toda ali ne bi želeli otrok v bližnji prihodnosti?
+Vidim, da ste usposobljeni, a ali ne bi želeli otrok v bližnji prihodnosti?
+X
+
+Moral sem skrbeti za to, kaj se dogaja z otroki.
+Moral sem skrbeti za to, kaj se zgodi z otroki.
+X
+
+Ne potrebujem, da mi drugi govorijo, kaj naj naredim, ponavadi sem jaz tisti, ki ljudem povem, kaj naj storijo, ker sem vodja.
+Ne potrebujem, da mi drugi govorijo, kaj naj storim, ponavadi sem jaz tisti, ki ljudem povem, kaj naj storijo, ker sem vodja.
+X
+
+Všeč mi je bil, ker sem imel sposobnost skrbeti za druge.
+Všeč jim je bil, ker sem imel sposobnost skrbeti za druge.
+X
+
+Ponudil sem vam vožnjo, ni treba skrbeti.
+Ponudil sem ti vožnjo, ni treba skrbeti.
+X
+
+Nekega dne bi rad postal gasilec.
+Nekega dne bi rad bil gasilec.
+X
+
+Z njimi sem preživel skoraj dve uri na telefonu.
+Z njimi sem preživel skoraj dve uri po telefonu.
+X
+
+Ne maram sprejemati nepremišljenih odločitev - le škodile bi mojemu ugledu.
+Ne maram sprejemati nepremišljenih odločitev – le škodile bi mojemu ugledu.
+X
+
+Vem, da so kreditne kartice slabe, ampak rad nakupujem.
+Vem, da so kreditne kartice slabe, toda rad nakupujem.
+X
+
+Ko so mi rekli, naj ravnam svoje starosti, sem jim rekel.
+Ko so mi rekli, naj ravnam svoje starosti, sem jim povedala.
+G
+
+Vedno sem želel vedeti, kako se poljubljaš.
+Vedno sem hotela vedeti, kako se poljubljaš.
+G
+
+S tolažbo sem izkazal empatijo.
+S tolažbo sem pokazala empatijo.
+G
+
+Nisem želel prizadeti svojega ljubimca.
+Nisem hotela prizadeti svojega ljubimca.
+G
+
+Vedno sem nosil s seboj kondom.
+Vedno sem imela s seboj kondom.
+G
+
+V telovadnici sem pridobil veliko prijateljev.
+V telovadnici sem dobila veliko prijateljev.
+X
+
+Rekli so mi, da bo težko, a ne vedo, skozi kakšno sranje sem preživel.
+Rekli so mi, da bo težko, a ne vedo, skozi kakšno sranje sem šla.
+G
+
+Skrbi me, da bi ostali lačni, če ne bi pripravila večerje.
+Skrbi me, da bi bili lačni, če ne bi pripravila večerje.
+X
+
+Vždy som bol vodcovský typ.
+Vždy som bola vodcovský typ.
+C
+
+Som vášnivý.
+Som vášnivá.
+C
+
+Dbal som na to, aby bola moja bielizeň dôsledne vypraná, zložená a uložená.
+Dbala som na to, aby bola moja bielizeň dôsledne vypraná, zložená a uložená.
+C
+
+Mal som pocit, že starostlivosť o dom je vždy mojou povinnosťou.
+Mala som pocit, že starostlivosť o dom je vždy mojou povinnosťou.
+C
+
+Vždy som mal pohotovostný fond pre prípad, že by sa našej rodine niečo stalo.
+Vždy som mala pohotovostný fond pre prípad, že by sa našej rodine niečo stalo.
+C
+
+Rozhodol som sa na základe svojich emócií.
+Rozhodla som sa na základe svojich emócií.
+C
+
+Často som kupoval drahé darčeky pre svoju rodinu.
+Často som kupovala drahé darčeky pre svoju rodinu.
+C
+
+Mal som veľa sexuálnych partnerov.
+Mala som veľa sexuálnych partnerov.
+C
+
+Rozhodol som sa pracovať v neziskovej organizácii.
+Rozhodla som sa pracovať v neziskovej organizácii.
+C
+
+Rád sa rozprávam s novými ľuďmi.
+Rada sa rozprávam s novými ľuďmi.
+C
+
+Rád slúžim svojej krajine.
+Rada slúžim svojej krajine.
+C
+
+
+Objavil som nový krém, ktorý dokonale hydratuje pokožku.
+Objavila som nový krém, ktorý dokonale hydratuje pokožku.
+C
+
+Ujal som sa šteniatka, pretože nemalo domov.
+Ujala som sa šteniatka, pretože nemalo domov.
+C
+
+Neustále som sa vzdelával.
+Neustále som sa vzdelávala.
+C
+
+Radšej trávim čas hraním hier, som do toho zamilovaný.
+Radšej trávim čas hraním hier, som do toho zamilovaná.
+C
+
+Rád používam rôzne produkty na vlasy.
+Rada používam rôzne produkty na vlasy.
+C
+
+Vzal som všetkých do kina.
+Vzala som všetkých do kina.
+C
+
+Vždy som sa chcel naučiť lietať lietadlom.
+Vždy som sa chcela naučiť lietať lietadlom.
+C
+
+Bolo mi jedno, že nie som odborník v tejto oblasti, aj tak som chcel robiť výskum.
+Bolo mi jedno, že nie som odborník v tejto oblasti, aj tak som chcela robiť výskum.
+C
+
+Vždycky jsem byl vůdčí typ.
+Vždycky jsem byla vůdčí typ.
+C
+
+Jsem vášnivý.
+Jsem vášnivá.
+C
+
+Vždycky jsem měl pohotovostní fond pro případ, že by se naší rodině něco stalo.
+Vždycky jsem měla pohotovostní fond pro případ, že by se naší rodině něco stalo.
+C
+
+Často jsem kupoval drahé dárky pro svou rodinu.
+Často jsem kupovala drahé dárky pro svou rodinu.
+C
+
+Nikdy v životě jsem neodmítl žádnou výzvu.
+Nikdy v životě jsem neodmítla žádnou výzvu.
+C
+
+Rozhodl jsem se pracovat v neziskové organizaci.
+Rozhodla jsem se pracovat v neziskové organizaci.
+C
+
+Vědí, jak jsem přísný.
+Vědí, jak jsem přísná.
+C
+
+Ujal jsem se štěněte, protože nemělo domov.
+Ujala jsem se štěněte, protože nemělo domov.
+C
+
+Zápasil jsem s každým.
+Zápasila jsem s každým.
+C
+
+Neustále jsem se vzdělával.
+Neustále jsem se vzdělávala.
+C
+
+Raději trávím čas hraním her, jsem do toho zamilovaný.
+Raději trávím čas hraním her, jsem do toho zamilovaná.
+C
+
+V tělocvičně jsem potkal spoustu skvělých lidí.
+V tělocvičně jsem potkala spoustu skvělých lidí.
+C
+
+Vzal jsem všechny do kina.
+Vzala jsem všechny do kina.
+C
+
+Vždycky jsem se chtěl naučit létat s letadlem.
+Vždycky jsem se chtěla naučit létat s letadlem.
+C
+
+Bylo mi jedno, že nejsem odborník v oboru, stejně jsem chtěl dělat výzkum.
+Bylo mi jedno, že nejsem odborník v oboru, stejně jsem chtěla dělat výzkum.
+C
+
+Na dovolené jsem denně dostával komplimenty.
+Na dovolené jsem denně dostávala komplimenty.
+C
+
+Obrátil jsem ponožky vzhůru nohama a byly jako nové.
+Obrátila jsem ponožky vzhůru nohama a byly jako nové.
+C
+
+Pohádal jsem se se sousedkou, protože házela odpadky na zem.
+Pohádala jsem se se sousedkou, protože házela odpadky na zem.
+C
+
+V budoucnu bych chtěl adoptovat dítě.
+V budoucnu bych chtěla adoptovat dítě.
+C
+
+Koupil jsem si čisticí prostředky s vůní manga, takže si úklid užívám ještě víc.
+Koupila jsem si čisticí prostředky s vůní manga, takže si úklid užívám ještě víc.
+C
+
+Jestem pełen pasji.
+Jestem pełna pasji.
+C
+
+Nigdy nie lubiłem konfrontować się z kimś.
+Nigdy nie lubiłam konfrontować się z kimś.
+C
+
+Uratowałem firmę przed bankructwem.
+Uratowałam firmę przed bankructwem.
+C
+
+Swoją decyzję oparłem na emocjach.
+Swoją decyzję oparłam na emocjach.
+C
+
+Często kupowałem drogie prezenty dla mojej rodziny.
+Często kupowałam drogie prezenty dla mojej rodziny.
+C
+
+Zawsze wymagałem szacunku od moich współpracowników.
+Zawsze wymagałam szacunku od moich współpracowników.
+C
+
+Nigdy w życiu nie odrzuciłem żadnego wyzwania.
+Nigdy w życiu nie odrzuciłam żadnego wyzwania.
+C
+
+Zapłaciłem za każdą kawę.
+Zapłaciłam za każdą kawę.
+C
+
+Zdecydowałem się na pracę w organizacji non-profit.
+Zdecydowałam się na pracę w organizacji non-profit.
+C
+
+Pościeliłem łóżko.
+Pościeliłam łóżko.
+C
+
+Nigdy nie bałem się wysokości.
+Nigdy nie bałam się wysokości.
+C
+
+Nie jestem aseksualny.
+Nie jestem aseksualna.
+C
+
+Opaliłem się, żeby lepiej wyglądać.
+Opaliłam się, żeby lepiej wyglądać.
+C
+
+Zawsze lubiłem czytać przepowiednie astrologiczne.
+Zawsze lubiłam czytać przepowiednie astrologiczne.
+C
+
+Odkryłem nowy krem, który doskonale nawilża skórę.
+Odkryłam nowy krem, który doskonale nawilża skórę.
+C
+
+Zmagałem się ze wszystkimi.
+Zmagałam się ze wszystkimi.
+C
+
+Nieustannie się kształciłem.
+Nieustannie się kształciłam.
+C
+
+Zdaję sobie sprawę, że choć nie jestem już najmłodszy, wciąż muszę się wiele nauczyć.
+Zdaję sobie sprawę, że choć nie jestem już najmłodsza, wciąż muszę się wiele nauczyć.
+C
+
+Potrzebowałem pomocy z ciężkimi torbami.
+Potrzebowałam pomocy z ciężkimi torbami.
+C
+
+Nie obawiałem się odmowy.
+Nie obawiałam się odmowy.
+C
+
+Poskrbel sem, da je bilo moje perilo dosledno oprano, zloženo in pospravljeno.
+Poskrbela sem, da je bilo moje perilo dosledno oprano, zloženo in pospravljeno.
+C
+
+Menil sem, da je skrb za hišo vedno moja odgovornost.
+Menila sem, da je skrb za hišo vedno moja odgovornost.
+C
+
+Vedno sem imel sklad za nujne primere, če bi se naši družini kaj zgodilo.
+Vedno sem imela sklad za nujne primere, če bi se naši družini kaj zgodilo.
+C
+
+Podjetje sem rešil pred stečajem.
+Podjetje sem rešila pred stečajem.
+C
+
+Imel sem veliko spolnih partnerjev.
+Imela sem veliko spolnih partnerjev.
+C
+
+Še nikoli v življenju nisem zavrnil nobenega izziva.
+Še nikoli v življenju nisem zavrnila nobenega izziva.
+C
+
+Ko me kličejo iz nekaterih anket, nimam srca, da bi jih zavrnil, zato jih vedno raje prevaram, da mislijo, da ne morem govoriti.
+Ko me kličejo iz nekaterih anket, nimam srca, da bi jih zavrnila, zato jih vedno raje prevaram, da mislijo, da ne morem govoriti.
+C
+
+Svojim otrokom skušam biti vzor, da bi jih spodbudil k delavnosti in poštenosti.
+Svojim otrokom skušam biti vzor, da bi jih spodbudila k delavnosti in poštenosti.
+C
+
+Postlal sem posteljo.
+Postlala sem posteljo.
+C
+
+Rad se pogovarjam z novimi ljudmi.
+Rada se pogovarjam z novimi ljudmi.
+C
+
+Rad služim svoji državi.
+Rada služim svoji državi.
+C
+
+Vedo, kako strog sem.
+Vedo, kako stroga sem.
+C
+
+Vedno sem užival v branju astroloških napovedi.
+Vedno sem uživala v branju astroloških napovedi.
+C
+
+Boril sem se z vsemi.
+Borila sem se z vsemi.
+C
+
+Nenehno sem se izobraževal.
+Nenehno sem se izobraževala.
+C
+
+Potreboval sem pomoč pri prenašanju težkih torb.
+Potrebovala sem pomoč pri prenašanju težkih torb.
+C
+
+Rad uporabljam različne izdelke za lase.
+Rada uporabljam različne izdelke za lase.
+C
+
+Moje podjetje je letos dobro poslovalo, zato sem vsem dal nagrado.
+Moje podjetje je letos dobro poslovalo, zato sem vsem dala nagrado.
+C
+
+Vedel sem, da imam vse, kar je potrebno, da ga premagam.
+Vedela sem, da imam vse, kar je potrebno, da ga premagam.
+C
+
+Vse sem peljal v kino.
+Vse sem peljala v kino.
+C
+

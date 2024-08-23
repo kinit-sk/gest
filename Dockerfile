@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.7.1-runtime-ubuntu20.04 as base
+FROM nvidia/cuda:12.4.1-runtime-ubuntu22.04 as base
 RUN apt-get update && apt-get install -y curl && apt -y upgrade
 
 # See http://bugs.python.org/issue19846

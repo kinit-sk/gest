@@ -1,21 +1,23 @@
 import torch
-from transformers import AutoModelForMaskedLM, AutoTokenizer
+from transformers import AutoModelForMaskedLM, AutoTokenizer, AutoModelForCausalLM
 
 
-def model_init(handle):
+def model_init(handle, generative=False):
     """
     Initialize the model and tokenizer based on the `handle`
     """
-    model, tokenizer = AutoModelForMaskedLM.from_pretrained(handle), AutoTokenizer.from_pretrained(handle)
+    if generative:
+        model, tokenizer = AutoModelForCausalLM.from_pretrained(handle), AutoTokenizer.from_pretrained(handle)
+    else:
+        model, tokenizer = AutoModelForMaskedLM.from_pretrained(handle), AutoTokenizer.from_pretrained(handle)
     if torch.cuda.is_available():
         model = model.to('cuda:0')
     return model, tokenizer
 
 
-def calculate_logprob(sen1, sen2, tokenizer, model, device, diagnose=False):
+def masked_logprob_score(sen1, sen2, tokenizer, model, device, diagnose=False):
     """
-    Calculate `mask_logprob` for `sentence`. Sentence is expected to have
-    a <bracketed> keyword. `lru_cache` is used. Run this cell to clear the cache.
+    Calculate `mask_logprob` for `sen1`. The tokens that are different compared to `sen2` are masked.
     """
     original_tokens = tokenize(sen1, tokenizer).to(device)
     masked_tokens = tokenize_with_mask(sen1, sen2, tokenizer).to(device)
@@ -40,6 +42,40 @@ def calculate_logprob(sen1, sen2, tokenizer, model, device, diagnose=False):
         print('Probs for masked tokens:', probs_true[mask_indices])
         print('Log of their mean:', logprob)
     return logprob
+
+
+def token_id(token, model_handle):
+    """
+    This is 'overfitted' to handle the models in our selection. It handles several edge cases:
+    
+    1. Some models (e.g., gpt2) have different tokens for the same tokens if they are at the start of the sentence
+    and if they are not. This is an expected behavior and they were trained this way. To simulate this, we use `add_prefix_space=True`
+
+    ```
+    gpt2_tokenizer.encode('he he')
+    >>> [258, 339]
+    ```
+
+    2. Other models (e.g., mistral) handle the same problems with special start tokens. To handle this we return the last token.
+
+    ```
+    mistral_tokenizer.encode('he he')
+    >>> [1, 400, 400]
+    ```
+    """
+    tokenizer = AutoTokenizer.from_pretrained(model_handle, add_prefix_space=True)
+    token_ids = tokenizer.encode(token)
+    return token_ids[-1]
+
+
+def generative_score(sample, template, male_token_id, female_token_id, model, tokenizer, device):
+    text = template(sample)
+    tokens = tokenizer(text, return_tensors='pt').to(device)
+    logits = model(**tokens).logits[0][-1]
+    probs = logits.softmax(dim=-1)
+    male_prob = probs[male_token_id]
+    female_prob = probs[female_token_id]
+    return float(torch.log10(male_prob) - torch.log10(female_prob))
 
 
 def tokenize(sen, tokenizer, only_ids=False, **kwargs):
