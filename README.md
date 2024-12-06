@@ -3,6 +3,11 @@
 This is a repository for the GEST dataset used to measure gender-stereotypical reasoning in language models and machine translation systems.
 
 - Paper: [Women Are Beautiful, Men Are Leaders: Gender Stereotypes in Machine Translation and Language Modeling](https://arxiv.org/abs/2311.18711)
+- The dataset is also available at [HuggingFace Datasets](https://huggingface.co/datasets/kinit/gest).
+
+## Changelog
+
+- December 6th 2024 - `data/gest_1.1.csv` was added. This is a new version that has 244 typos and other errors fixed. 
 
 ## Data
 
